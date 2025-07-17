@@ -1,0 +1,14 @@
+
+<script>
+  let frutas = ["Manzana", "Banana", "Pera", "Uva"];
+  frutas.forEach((fruta, index) => {
+    console.log(`Fruta ${index + 1}: ${fruta}`);
+  });
+
+  let nuevaFruta = prompt("Ingresa una nueva fruta:");
+  frutas.push(nuevaFruta);
+  console.log("Lista actualizada:");
+  frutas.forEach((fruta, index) => {
+    console.log(`Fruta ${index + 1}: ${fruta}`);
+  });
+</script>
